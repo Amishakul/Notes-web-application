@@ -1,0 +1,176 @@
+*
+{
+font-size:30px;
+font-family:Mukta;
+
+}
+
+h1
+{
+color:black;
+font-size:150%;
+
+}
+h3
+{
+color:white;
+}
+h4{
+color:white;
+}
+
+.nav
+{
+background-color:black;
+}
+
+.nav a 
+{
+color:white;
+text-decoration:none;
+margin:5%;
+}
+
+
+
+  
+        .card1 {
+            margin-right: auto;
+            margin-left: 282px;
+            width: 350px;
+            box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+            height: 300px;
+            border-radius: 5px;
+            backdrop-filter: blur(14px);
+            /* background-color: rgba(255, 255, 255, 0.2); */
+            background-color:lightblue;
+            padding: 10px;
+            text-align: center;
+        }
+
+.card2 {
+            margin-right: auto;
+            margin-left: 282px;
+            width: 350px;
+            box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+            height: 300px;
+            border-radius: 5px;
+            backdrop-filter: blur(14px);
+            /* background-color: rgba(255, 255, 255, 0.2); */
+            background-color:lightpink;
+            padding: 10px;
+            text-align: center;
+        }
+
+.card3 {
+            margin-right: auto;
+            
+            margin-left: 1014px;
+            margin-top: -722px;
+            width: 350px;
+            box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+            height: 300px;
+            border-radius: 5px;
+            backdrop-filter: blur(14px);
+            /* background-color: rgba(255, 255, 255, 0.2); */
+            background-color:LightGreen;
+            padding: 10px;
+            text-align: center;
+            
+ }
+
+.card4 {
+            margin-right: auto;
+            
+            margin-left: 1014px;
+            margin-top: 79px;
+            width: 350px;
+            box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+            height: 300px;
+            border-radius: 5px;
+            backdrop-filter: blur(14px);
+            /* background-color: rgba(255, 255, 255, 0.2); */
+            background-color:Khaki;
+            padding: 10px;
+            text-align: center;
+            
+ }
+
+ .card5 {
+  margin-right: auto;
+  
+  margin-left: 1014px;
+  margin-top: 79px;
+  width: 350px;
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  height: 300px;
+  border-radius: 5px;
+  backdrop-filter: blur(14px);
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  background-color:rgb(241, 158, 107);
+  padding: 10px;
+  text-align: center;
+  
+}
+
+
+.card6 {
+  margin-right: auto;
+  
+  margin-left: 278px;
+  margin-top: -321px;
+  width: 350px;
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+  height: 300px;
+  border-radius: 5px;
+  backdrop-filter: blur(14px);
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  background-color:rgb(218, 175, 255);
+  padding: 10px;
+  text-align: center;
+  
+}
+   
+
+ /* {
+background-color:Plum;
+}  */
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+hr {
+  border: none; /* Remove the default border */
+  height: 2px; /* Set the height of the line */
+  border-top: 2px dashed #000; /* Set the dotted border */
+  margin: 10px 0; /* Adjust the margin as needed */
+}

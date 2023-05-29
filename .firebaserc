@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "notes-app-48614",
+    "staging": "notes-app-3119a"
+  },
+  "targets": {},
+  "etags": {}
+}
